@@ -12,7 +12,13 @@ This directory is a registry and template for Claude Code skills. Skills are ext
 skills/
 ├── README.md              # Meta-registry listing all published skills
 ├── CLAUDE.md              # This file
-├── template/              # Starter template for new skills
+├── scripts/
+│   └── new-skill.sh       # Lean skill scaffolding script
+├── skill-builder/         # Meta-skill for building conversational skills
+│   ├── SKILL.md
+│   ├── README.md
+│   └── LICENSE
+├── template/              # Full starter template for new skills
 │   ├── SKILL.md
 │   ├── reference.md
 │   ├── examples.md

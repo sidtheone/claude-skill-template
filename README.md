@@ -15,7 +15,7 @@ Skills can be invoked manually (`/skill-name`) or automatically loaded by Claude
 
 | Skill | Repository | Description | Version |
 |-------|-----------|-------------|---------|
-| _No skills published yet_ | | | |
+| biz-lens | [sidtheone/biz-lens](https://github.com/sidtheone/biz-lens) | Research-backed business strategy advisor using MBA frameworks | v1.0.0 |
 
 *Submit a PR to add your skill to this registry*
 
@@ -38,10 +38,13 @@ git clone https://github.com/your-org/skill-name .claude/skills/skill-name
 
 ### Creating a Skill
 
-1. **Start with the template**
+1. **Scaffold a new skill**
    ```bash
+   # Lean directory (just SKILL.md)
+   ./scripts/new-skill.sh your-skill-name
+
+   # Or copy the full template
    cp -r template/ your-skill-name/
-   cd your-skill-name/
    ```
 
 2. **Edit SKILL.md**
@@ -83,6 +86,14 @@ template/
 ├── scripts/
 │   └── example.sh        # Executable scripts
 └── TEMPLATE_GUIDE.md     # Complete usage guide
+```
+
+### Lean Scaffolding
+
+For a minimal start, use the `scripts/new-skill.sh` script which creates just a directory with a bare `SKILL.md`:
+
+```bash
+./scripts/new-skill.sh your-skill-name
 ```
 
 Key features:
