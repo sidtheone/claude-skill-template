@@ -15,7 +15,7 @@ Skills can be invoked manually (`/skill-name`) or automatically loaded by Claude
 
 | Skill | Repository | Description | Version |
 |-------|-----------|-------------|---------|
-| biz-lens | [sidtheone/biz-lens](https://github.com/sidtheone/biz-lens) | Research-backed business strategy advisor using MBA frameworks | v1.0.0 |
+| biz-lens | [sidtheone/biz-lens](https://github.com/sidtheone/biz-lens) | Research-backed business strategy advisor using MBA frameworks | v1.1.0 |
 
 *Submit a PR to add your skill to this registry*
 
